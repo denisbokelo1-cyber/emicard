@@ -2,8 +2,8 @@
 'title' => __('Terms and Conditions')])
 
 @section('content')
-{{-- Terms and condition page --}}
-<section class="pt-12 lg:pb-20 lg:px-24 overflow-hidden">
+{{-- Terms et Conditions d'utilisation de l'application EMICARD (modern redesign) --}}
+<section class="py-12 lg:py-16 px-4 bg-gradient-to-b from-white to-[#F8FAFC]">
     <div class="container mx-auto px-4">
         <div class="max-w-full mx-auto mb-20">
             <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900 break-words">{{ __($termsPage[0]->section_content) }}</h2>
