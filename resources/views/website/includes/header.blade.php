@@ -86,7 +86,7 @@
                 <div class="flex flex-nowrap items-center">
                     <div class="w-auto mr-14">
                         <a href="/">
-                            <img src="{{ asset($settings->site_logo) }}" alt="{{ $settings->site_name }}" width="150">
+<img src="{{ asset('img/logo.jpeg') }}" alt="{{ $settings->site_name }}" width="150">
                         </a>
                     </div>
                     @if ($config[38]->config_value != 'no')
@@ -340,7 +340,7 @@
                         <div class="flex items-center justify-between -m-2">
                             <div class="w-auto p-2">
                                 <a class="inline-block" href="/">
-                                    <img src="{{ asset($settings->site_logo) }}" alt="{{ $settings->site_name }}"
+<img src="{{ asset('img/logo.jpeg') }}" alt="{{ $settings->site_name }}"
                                         width="100">
                                 </a>
                             </div>

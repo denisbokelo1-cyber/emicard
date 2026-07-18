@@ -13,7 +13,7 @@
             <div class="w-full md:w-1/2 {{ $pages->where('page_name', 'Custom Page')->where('status', 'active')->isNotEmpty() ? 'lg:w-3/12' : 'lg:w-5/12' }} p-6">
                 <div class="flex flex-col justify-between h-full">
                     <div>
-                        <img class="mb-4" src="{{ asset($settings->site_logo) }}" alt="{{ $settings->site_name }}"
+<img class="mb-4" src="{{ asset('img/logo.jpeg') }}" alt="{{ $settings->site_name }}"
                             width="200">
                     </div>
                 </div>

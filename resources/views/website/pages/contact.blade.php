@@ -15,16 +15,16 @@
                 <div class="md:max-w-xs">
                     <h3 class="mb-4 font-heading font-medium text-2xl text-gray-900">{{
                         __($contactPage[2]->section_content) }}</h3>
-                    <p class="text-lg text-gray-700">{{ __($contactPage[3]->section_content) }}</p>
-                    <p class="text-lg text-gray-700">{{ __($contactPage[4]->section_content) }}</p>
+                    <p class="text-lg text-gray-700">195 Avenue Kabambare</p>
+                    <p class="text-lg text-gray-700">Commune de Lingwala • Kinshasa • République Démocratique du Congo</p>
                 </div>
             </div> 
             <div class="w-full md:w-1/3 p-6">
                 <div class="md:max-w-xs">
                     <h3 class="mb-4 font-heading font-medium text-2xl text-gray-900">{{
                         __($contactPage[5]->section_content) }}</h3>
-                    <p class="text-lg text-gray-700"><a href="mailto:{{ __($contactPage[6]->section_content) }}">{{ __($contactPage[6]->section_content) }}</a></p>
-                    <p class="text-lg text-gray-700"><a href="tel:{{ __($contactPage[7]->section_content) }}">{{ __($contactPage[7]->section_content) }}</a></p>
+                    <p class="text-lg text-gray-700"><a href="mailto:contact@revival-business.com">contact@revival-business.com</a></p>
+                    <p class="text-lg text-gray-700"><a href="tel:+243860275282">+243 860 275 282</a></p>
                 </div>
             </div>
             <div class="w-full md:w-1/3 p-6">
@@ -32,9 +32,10 @@
                     <h3 class="mb-2.5 font-heading font-medium text-2xl text-gray-900">{{
                         __($contactPage[8]->section_content) }}</h3>
                     <div class="flex flex-wrap items-center -ml-5">
+                        {{-- Facebook --}}
                         @if ($supportPage[0]->section_content != "#")
                             <div class="w-auto p-5">
-                                <a class="text-gray-900" href="{{ __($supportPage[0]->section_content) }}" target="_blank">
+                                <a class="text-gray-900" href="{{ __($supportPage[0]->section_content) }}" target="_blank" rel="noopener noreferrer">
                                     <svg width="24" height="24" viewBox="0 0 8 15" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -47,7 +48,7 @@
 
                         @if ($supportPage[1]->section_content != "#")
                             <div class="w-auto p-5">
-                                <a class="text-gray-900" href="{{ __($supportPage[1]->section_content) }}" target="_blank">
+                                <a class="text-gray-900" href="{{ __($supportPage[1]->section_content) }}" target="_blank" rel="noopener noreferrer">
                                     <svg width="24" height="24" viewBox="0 0 14 12" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -60,7 +61,7 @@
 
                         @if ($supportPage[2]->section_content != "#")
                             <div class="w-auto p-5">
-                                <a class="text-gray-900" href="{{ __($supportPage[2]->section_content) }}" target="_blank">
+                                <a class="text-gray-900" href="{{ __($supportPage[2]->section_content) }}" target="_blank" rel="noopener noreferrer">
                                     <svg width="24" height="24" viewBox="0 0 18 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -79,7 +80,7 @@
 
                         @if ($supportPage[3]->section_content != "#")
                             <div class="w-auto p-5">
-                                <a class="text-gray-900" href="{{ __($supportPage[3]->section_content) }}" target="_blank">
+                                <a class="text-gray-900" href="{{ __($supportPage[3]->section_content) }}" target="_blank" rel="noopener noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                         <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
